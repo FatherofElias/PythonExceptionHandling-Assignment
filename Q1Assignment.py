@@ -18,8 +18,8 @@ def convert_temperature(fahrenheit):
         return None
     
 
- # Task 3
-        # Implement an else block that prints the converted temperature in a user-friendly format
+# Task 3
+# Implement an else block that prints the converted temperature in a user-friendly format
     else:
         print(f"{fahrenheit} degrees Fahrenheit is {round(celsius, 2)} degrees Celsius.")
         return celsius
